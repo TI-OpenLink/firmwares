@@ -1578,11 +1578,17 @@ File: wl1271-fw-2.bin
 File: wl1271-fw-ap.bin
 File: wl127x-fw-3.bin
 File: wl127x-fw-plt-3.bin
+File: wl127x-fw-4-sr.bin
+File: wl127x-fw-4-mr.bin
+File: wl127x-fw-4-plt.bin
 
 File: wl128x-fw.bin
 File: wl128x-fw-ap.bin
 File: wl128x-fw-3.bin
 File: wl128x-fw-plt-3.bin
+File: wl128x-fw-4-sr.bin
+File: wl128x-fw-4-mr.bin
+File: wl128x-fw-4-plt.bin
 
 File: wl127x-nvs.bin
 File: wl128x-nvs.bin
@@ -1592,15 +1598,21 @@ sl:   wl1271-nvs.bin -> wl127x-nvs.bin
 
 Licence: See LICENCE.ti-connectivity for details.
 
-	Station:      wl1271-fw.bin version 6.1.0.50.350
-	Station:      wl1271-fw-2.bin version 6.1.5.50.74
-	Station:      wl128x-fw.bin version 7.1.5.50.74
-	Access Point: wl1271-fw-ap.bin version 6.2.1.0.54
-	Access Point: wl128x-fw-ap.bin version 7.2.1.0.54
-	Station & Access Point: wl127x-fw-3.bin version Rev 6.3.0.0.77
-	PLT: 			wl127x-fw-3.bin version PLT 6.3.0.0.77
-	Station & Access Point: wl128x-fw-3.bin version Rev 7.3.0.0.77
-	PLT:			wl128x-fw-3.bin version PLT 7.3.0.0.77
+	Station:		wl1271-fw.bin		6.1.0.50.350
+	Station:		wl1271-fw-2.bin		6.1.5.50.74
+	Station:		wl128x-fw.bin		7.1.5.50.74
+	Access Point:		wl1271-fw-ap.bin	6.2.1.0.54
+	Access Point:		wl128x-fw-ap.bin	7.2.1.0.54
+	Station & Access Point: wl127x-fw-3.bin		6.3.0.0.77
+	PLT: 			wl127x-fw-3.bin		6.3.0.0.77
+	Station & Access Point: wl128x-fw-3.bin		7.3.0.0.77
+	PLT:			wl128x-fw-3.bin		7.3.0.0.77
+	Single-role:		wl127x-fw-4-sr.bin	6.3.5.0.98
+	Multi-role:		wl127x-fw-4-mr.bin	6.5.2.0.15
+	PLT:			wl127x-fw-4-plt.bin	6.3.5.0.98
+	Single-role:		wl128x-fw-4-sr.bin	7.3.5.0.98
+	Multi-role:		wl128x-fw-4-mr.bin	7.5.2.0.15
+	PLT:			wl128x-fw-4-plt.bin	7.3.5.0.98
 
 The nvs file includes two parts:
 	 - radio calibration
